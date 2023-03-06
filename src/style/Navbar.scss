@@ -1,0 +1,95 @@
+@import "variables";
+
+@keyframes inputOn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 200px;
+  }
+}
+@keyframes inputOff {
+  to {
+    width: 0;
+    border-color: transparent;
+  }
+}
+
+.Navbar {
+  user-select: none;
+  width: 100%;
+  min-width: 1000px;
+  height: 80px;
+  background-color: $firstColor;
+  .nav-container {
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .nav-left {
+    display: table;
+    // margin: 0 auto;
+    height: 60px;
+    // width: 1000px;
+    padding: 25px 20px 0;
+  }
+  .active {
+    color: $fourthColor;
+  }
+  a {
+    color: $thirdColor;
+    font-size: 1.1em;
+    margin-right: 20px;
+    padding: 1px 5px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  a:hover {
+    color: $fourthColor;
+  }
+
+  .nav-right {
+    padding: 25px 20px 0;
+    display: flex;
+  }
+  .searchBar {
+    color: $thirdColor;
+    display: flex;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 1.1em;
+    user-select: none;
+    svg {
+      margin-right: 10px;
+      transition: 0.2s;
+      margin-top: 7px;
+      &:hover {
+        color: $fourthColor
+      }
+    }
+    input {
+      background-color: transparent;
+      // transition: 2s;
+      height: 25px;
+      margin-top: 5px;
+      font-size: 0.8em;
+      width: 200px;
+      animation-name: inputOn;
+      animation-duration: 0.6s;
+      border: none;
+      color: $thirdColor;
+      border-bottom: 1px solid $thirdColor;
+      transition: 0.5s;
+      &:focus {
+        border-color: $fourthColor;
+        outline: none;
+      }
+    }
+    .inputOff {
+      animation-name: inputOff;
+      animation-duration: 0.6s;
+    }
+  }
+}
