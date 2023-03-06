@@ -1,8 +1,13 @@
-import MainBanner from '../images/CM_banner.jpg'
+
+import '../style/Homepage.scss'
+import AnimeList from '../AnimeList.json';
+import MainPage from '../components/MainPage';
+
 export default function HomePage () {
+  console.log(AnimeList)
   return (
-    <div>
-      <img src={MainBanner} alt="Main Banner"></img>
+    <div className="HomePage">
+      <MainPage/>
     </div>
   )
 }

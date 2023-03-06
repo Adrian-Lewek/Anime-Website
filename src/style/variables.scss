@@ -1,7 +1,15 @@
 $defaultFontsize: 20px;
 
-$firstColor: #111218;
+$firstColor: #17181f;
 $secondColor: #232b35;
 $thirdColor: #ebebeb;
-$fourthColor: #81cfca;
-$fifthColor: #45a29e;
+$fourthColor: #46dbd1;
+$fifthColor: #019fb6;
+
+%button{
+  background: linear-gradient(to right, $fifthColor, $fifthColor);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.4s 0s;
+  transition: all 0.4s linear;
+}
