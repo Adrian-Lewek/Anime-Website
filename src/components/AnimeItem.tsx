@@ -2,7 +2,7 @@ import Images from "../images/index"
 import { FunctionComponent } from 'react';
 import { NavLink } from "react-router-dom";
 import {BsFillPlayFill} from "react-icons/bs"
-
+;
 interface animeType {
   anime: {
     title: string;
@@ -11,6 +11,7 @@ interface animeType {
     numOfEp: number;
     shortCode: string;
     numOfSeasons: number;
+    rating: number;
   }
 }
 const AnimeItem: FunctionComponent<animeType> = ({ anime }) => {

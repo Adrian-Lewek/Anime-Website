@@ -58,27 +58,128 @@
       }
     }
   }
-  .browseTitle{
-    color: $thirdColor;
-    text-transform: capitalize;
-    font-size: 1.5em;
-    font-weight: 600;
+  .browseContainer{
+    .browseTitle{
+      color: $thirdColor;
+      text-transform: capitalize;
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+    .browseDesc{
+      color: $sixthColor;
+      font-size: 1em;
+    }
+    .rightSide{
+      display: flex;
+      align-items: center;
+      a{
+        text-decoration: none;
+        color: $sixthColor;
+      }
+    }
   }
-  .browseDesc{
-    color: $thirdColor;
-    font-size: 1em;
-  }
-  
   .popularAnime{
-    width: 1200px;
-    margin: 40px auto;
+    width: $defaultWidth;
+    margin: 60px auto;
     
     .popularAnimeContainer{
       margin-top: 10px;
       padding-top: 20px;
-      border-top: 2px solid $fifthColor;
+      border-top: 3px solid $fifthColor;
       display: flex;
       justify-content: space-between ;
+    }
+  }
+  .randomAnimeContainer{
+    width: $defaultWidth;
+    margin: 80px auto;
+    height: 450px;
+    background-color: $firstColor;
+    display: flex;
+    .leftSide{
+      position: relative;
+      height: 100%;
+      width: 300px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .shadowBox{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+        bottom: 0;
+        background: linear-gradient(270deg, rgba(35,43,53,1) 0%, rgba(35,43,53,0.16) 30%);
+      }
+    }
+    .rightSide{
+      width: 840px;
+      position: relative;
+      margin: 30px;
+      .title{
+        color: $thirdColor;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        h1{margin: 0;}
+      }
+      .desc{
+        color: $sixthColor;
+        margin-top: 30px;
+        font-size: 1.05em;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+      }
+      .bottomContainer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        .bottomDesc{
+          display: flex;
+          font-size: 1em;
+          align-items: center;
+          color: $fourthColor;
+          .unicode{
+            margin: 0 15px;
+          }
+        }
+        .button{
+          
+          width: 270px;
+          height: 65px;
+          display: flex;
+          text-align: center;
+          
+
+          font-size: 1.2em;
+          color: $thirdColor;
+          border: 3px solid $thirdColor;
+          font-weight: 500;
+          transition: 0.4s;
+          @extend %button;
+          &:hover{
+            border-color: $fifthColor;
+            background-size: 100% 100%;
+          }
+          a{
+            padding-top: 14px;
+            height: 100%;
+            width: 100%;
+            color: white;
+            text-decoration: none;
+           
+            
+          }
+        }
+      }
     }
   }
 }

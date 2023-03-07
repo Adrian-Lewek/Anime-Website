@@ -5,7 +5,9 @@
     "numOfEp": 12,
     "numOfSeasons": 1,
     "type": "TV",
-    "shortCode": "CM"
+    "shortCode": "CM",
+    "rating": 86,
+    "year": 2022
   },
   {
     "title": "One Piece",
@@ -13,7 +15,9 @@
     "numOfEp": 1054,
     "numOfSeasons": 1,
     "type": "TV",
-    "shortCode": "OP"
+    "shortCode": "OP",
+    "rating": 87,
+    "year": 1999
   },
   {
     "title": "Overlord",
@@ -21,7 +25,9 @@
     "numOfEp": 13,
     "numOfSeasons": 4,
     "type": "TV",
-    "shortCode": "OVRL"
+    "shortCode": "OVRL",
+    "rating": 76,
+    "year": 2015
   },
   {
     "title": "Tensei shitara Slime Datta Ken",
@@ -29,7 +35,49 @@
     "numOfEp": 24,
     "numOfSeasons": 2,
     "type": "TV",
-    "shortCode": "SLIME"
+    "shortCode": "SLIME",
+    "rating": 80,
+    "year": 2018
+  },
+  {
+    "title": "Ningen Fushin: Adventurers Who Don’t Believe in Humanity Will Save the World",
+    "desc": "Nick used to be a member of a veteran adventurer party, helping his undisciplined friends with the accounts whenever he could. But what was his reward? Getting accused of embezzlement and kicked out by the leader he respected. Before long, he finds a few other jaded adventurers and kindred spirits, and together, they form their own unstoppable party!",
+    "numOfEp": 12,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "NFNO",
+    "rating": 63,
+    "year": 2022
+  },
+  {
+    "title": "BLUELOCK",
+    "desc": "After a disastrous defeat at the 2018 World Cup, Japan's team struggles to regroup. But what's missing? An absolute Ace Striker, who can guide them to the win. The Japan Football Union is hell-bent on creating a striker who hungers for goals and thirsts for victory, and who can be the decisive instrument in turning around a losing match...and to do so, they've gathered 300 of Japan's best and brightest youth players. Who will emerge to lead the team...and will they be able to out-muscle and out-ego everyone who stands in their way?",
+    "numOfEp": 24,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "BL",
+    "rating": 81,
+    "year": 2023
+  },
+  {
+    "title": "The Eminence in Shadow",
+    "desc": "Some people just aren't suited to playing the part of the flashy, in-your-face hero or the dastardly, mustache-twirling villain with larger-than-life panache. Instead, they operate in the shadows and pull the strings of society through wit and cleverness. That’s the role Cid wants to play when he's transported to another world. Cid spins a yarn or three and becomes the unlikely leader of the underground Shadow Garden organization that fights against a menacing cult (which he totally made up). However, there's a catch even his wild imagination didn't see coming: the cult he concocted actually exists, and they're beyond displeased that his power fantasy just got in the way of their evil plans!",
+    "numOfEp": 20,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "SHADOW",
+    "rating": 82,
+    "year": 2022
+  },
+  {
+    "title": "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants",
+    "desc": "Anos, the Demon King of Tyranny, has defeated humans, spirits, and gods alike. But even demon kings get tired of all the fighting sometimes! Hoping for a more peaceful life, Anos decides to reincarnate himself. When he wakes two thousand years later, though, he finds the world has become too peaceful--his descendants have grown weak and magic is in serious decline. Intending to reclaim his rightful place, he enrolls in Demon King Academy, where he finds that his magical power is off the charts. Literally. And because they can't measure his power, the faculty and other students regard Anos as a misfit. With the support of Misha, the one student he manages to befriend, the misfit (Demon King) begins his climb up the demon ranks!",
+    "numOfEp": 13,
+    "numOfSeasons": 2,
+    "type": "TV",
+    "shortCode": "TMODKA",
+    "rating": 73,
+    "year": 2023
   },
   {
     "title": "Boku no Hero Academia",
@@ -37,6 +85,8 @@
     "numOfEp": 13,
     "numOfSeasons": 6,
     "type": "TV",
-    "shortCode": "BNHA"
+    "shortCode": "BNHA",
+    "rating": 77,
+    "year": 2016
   }
 ]

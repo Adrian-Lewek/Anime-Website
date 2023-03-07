@@ -4,7 +4,6 @@
   user-select: none;
   width: 200px;
   height: 320px;
-  background-color: red;
   position: relative;
   img{
     object-fit:cover;
@@ -25,6 +24,10 @@
     color: $thirdColor;
     font-size: 0.9em;
     padding: 4px 7px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
   .shadowBox{
     position: absolute;
@@ -58,6 +61,7 @@
     color: $fourthColor;
     font-size: 0.72em;
     margin: 0 10px;
+    
     .unicode{
       margin: 0 10px;
     }
