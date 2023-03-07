@@ -1,10 +1,12 @@
 $defaultFontsize: 20px;
 
-$firstColor: #17181f;
-$secondColor: #232b35;
+$firstColor: #232b35;
+$secondColor: #17181f;
 $thirdColor: #ebebeb;
-$fourthColor: #46dbd1;
+$fourthColor: #27cabd;
 $fifthColor: #019fb6;
+
+$NavHeight: 80px;
 
 %button{
   background: linear-gradient(to right, $fifthColor, $fifthColor);

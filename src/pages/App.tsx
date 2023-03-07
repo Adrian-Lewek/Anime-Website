@@ -9,9 +9,6 @@ import Homepage from './Homepage';
 
 
 function App() {
-
-  
-  console.log('test')
   return (
     <div className="App">
       <Navbar/>

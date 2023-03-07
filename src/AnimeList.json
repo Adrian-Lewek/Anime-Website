@@ -4,7 +4,39 @@
     "desc": "Denji is a teenage boy living with a Chainsaw Devil named Pochita. Due to the debt his father left behind, he has been living a rock-bottom life while repaying his debt by harvesting devil corpses with Pochita. One day, Denji is betrayed and killed. As his consciousness fades, he makes a contract with Pochita and gets revived as \"Chainsaw Man\" — a man with a devil's heart.",
     "numOfEp": 12,
     "numOfSeasons": 1,
-    "group": "Chainsaw Man",
+    "type": "TV",
     "shortCode": "CM"
+  },
+  {
+    "title": "One Piece",
+    "desc": "Enter Monkey D. Luffy, a 17-year-old boy that defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate who ransacks villages for fun, Luffy’s reason for being a pirate is one of pure wonder; the thought of an exciting adventure and meeting new and intriguing people, along with finding One Piece, are his reasons of becoming a pirate. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach One Piece.",
+    "numOfEp": 1054,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "OP"
+  },
+  {
+    "title": "Overlord",
+    "desc": "The story takes place in the year 2138 when virtual reality gaming is booming. Yggdrasil, a popular online game is quietly shut down one day. However, the protagonist Momonga decides to not log out. Momonga is then transformed into the image of a skeleton as \"the most powerful wizard.\" The world continues to change, with non-player characters (NPCs) beginning to feel emotion. Having no parents, friends, or place in society, this ordinary young man Momonga then strives to take over the new world the game has become.",
+    "numOfEp": 13,
+    "numOfSeasons": 4,
+    "type": "TV",
+    "shortCode": "OVRL"
+  },
+  {
+    "title": "Tensei shitara Slime Datta Ken",
+    "desc": "Lonely thirty-seven-year-old Satoru Mikami is stuck in a dead-end job, unhappy with his mundane life, but after dying at the hands of a robber, he awakens to a fresh start in a fantasy realm...as a slime monster! As he acclimates to his goopy new existence, his exploits with the other monsters set off a chain of events that will change his new world forever!",
+    "numOfEp": 24,
+    "numOfSeasons": 2,
+    "type": "TV",
+    "shortCode": "SLIME"
+  },
+  {
+    "title": "Boku no Hero Academia",
+    "desc": "What would the world be like if 80 percent of the population manifested extraordinary superpowers called “Quirks” at age four? Heroes and villains would be battling it out everywhere! Becoming a hero would mean learning to use your power, but where would you go to study? U.A. High's Hero Program of course! But what would you do if you were one of the 20 percent who were born Quirkless?",
+    "numOfEp": 13,
+    "numOfSeasons": 6,
+    "type": "TV",
+    "shortCode": "BNHA"
   }
 ]

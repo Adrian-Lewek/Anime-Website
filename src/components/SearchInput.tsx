@@ -1,5 +1,5 @@
 
-import React, { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 
 interface SearchInputProps {

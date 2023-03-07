@@ -1,5 +1,6 @@
 @import "variables";
 
+
 @keyframes inputOn {
   from {
     width: 0;
@@ -14,12 +15,17 @@
     border-color: transparent;
   }
 }
-
+.navHeight{
+  height: $NavHeight;
+}
 .Navbar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
   user-select: none;
   width: 100%;
   min-width: 1000px;
-  height: 80px;
+  height: $NavHeight;
   background-color: $firstColor;
   .nav-container {
     height: 100%;
