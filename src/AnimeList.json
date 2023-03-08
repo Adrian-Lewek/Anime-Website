@@ -7,7 +7,15 @@
     "type": "TV",
     "shortCode": "CM",
     "rating": 86,
-    "year": 2022
+    "year": 2022,
+    "studio": "MAPPA",
+    "genres":[
+      "ACTION",
+      "COMEDY",
+      "DRAMA",
+      "HORROR",
+      "SUPERNATURAL"
+    ]
   },
   {
     "title": "One Piece",
@@ -17,7 +25,15 @@
     "type": "TV",
     "shortCode": "OP",
     "rating": 87,
-    "year": 1999
+    "year": 1999,
+    "studio": "TOEI",
+    "genres":[
+      "ACTION",
+      "ADVENTURE",
+      "COMEDY",
+      "DRAMA",
+      "FANTASY"
+    ]
   },
   {
     "title": "Overlord",
@@ -27,7 +43,13 @@
     "type": "TV",
     "shortCode": "OVRL",
     "rating": 76,
-    "year": 2015
+    "year": 2015,
+    "studio": "MADHOUSE",
+    "genres":[
+      "ACTION",
+      "ADVENTURE",
+      "FANTASY"
+    ]
   },
   {
     "title": "Tensei shitara Slime Datta Ken",
@@ -37,17 +59,30 @@
     "type": "TV",
     "shortCode": "SLIME",
     "rating": 80,
-    "year": 2018
+    "year": 2018,
+    "studio": "8BIT",
+    "genres":[
+      "ACTION",
+      "ADVENTURE",
+      "COMEDY",
+      "FANTASY"
+    ]
   },
   {
-    "title": "Ningen Fushin: Adventurers Who Don’t Believe in Humanity Will Save the World",
+    "title": "Ningen Fushin: Adventurers Who Don't Believe in Humanity Will Save the World",
     "desc": "Nick used to be a member of a veteran adventurer party, helping his undisciplined friends with the accounts whenever he could. But what was his reward? Getting accused of embezzlement and kicked out by the leader he respected. Before long, he finds a few other jaded adventurers and kindred spirits, and together, they form their own unstoppable party!",
     "numOfEp": 12,
     "numOfSeasons": 1,
     "type": "TV",
     "shortCode": "NFNO",
     "rating": 63,
-    "year": 2022
+    "year": 2022,
+    "studio": "GEEKTOYS",
+    "genres":[
+      "ACTION",
+      "ADVENTURE",
+      "FANTASY"
+    ]
   },
   {
     "title": "BLUELOCK",
@@ -57,7 +92,13 @@
     "type": "TV",
     "shortCode": "BL",
     "rating": 81,
-    "year": 2023
+    "year": 2023,
+    "studio": "8BIT",
+    "genres":[
+      "ACTION",
+      "DRAMA",
+      "SPORTS"
+    ]
   },
   {
     "title": "The Eminence in Shadow",
@@ -67,7 +108,13 @@
     "type": "TV",
     "shortCode": "SHADOW",
     "rating": 82,
-    "year": 2022
+    "year": 2022,
+    "studio": "NEXUS",
+    "genres":[
+      "ACTION",
+      "COMEDY",
+      "FANTASY"
+    ]
   },
   {
     "title": "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants",
@@ -77,7 +124,12 @@
     "type": "TV",
     "shortCode": "TMODKA",
     "rating": 73,
-    "year": 2023
+    "year": 2023,
+    "studio": "SILVER",
+    "genres":[
+      "ACTION",
+      "FANTASY"
+    ]
   },
   {
     "title": "Boku no Hero Academia",
@@ -87,6 +139,12 @@
     "type": "TV",
     "shortCode": "BNHA",
     "rating": 77,
-    "year": 2016
+    "year": 2016,
+    "studio": "BONES",
+    "genres":[
+      "ACTION",
+      "ADVENTURE",
+      "COMEDY"
+    ]
   }
 ]

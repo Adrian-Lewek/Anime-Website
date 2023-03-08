@@ -129,7 +129,7 @@
       .desc{
         color: $sixthColor;
         margin-top: 30px;
-        font-size: 1.05em;
+        font-size: 0.95em;
         overflow: hidden;
         display: -webkit-box;
         -webkit-line-clamp: 7;
@@ -144,7 +144,7 @@
         justify-content: space-between;
         .bottomDesc{
           display: flex;
-          font-size: 1em;
+          font-size: 0.9em;
           align-items: center;
           color: $fourthColor;
           .unicode{

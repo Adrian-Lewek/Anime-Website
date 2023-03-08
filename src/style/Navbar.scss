@@ -24,12 +24,12 @@
   z-index: 100;
   user-select: none;
   width: 100%;
-  min-width: 1000px;
+  min-width: 1200px;
   height: $NavHeight;
   background-color: $firstColor;
   .nav-container {
     height: 100%;
-    width: 1000px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -39,7 +39,7 @@
     // margin: 0 auto;
     height: 60px;
     // width: 1000px;
-    padding: 25px 20px 0;
+    padding: 25px 20px 0 0;
   }
   .active {
     color: $fourthColor;
@@ -57,7 +57,7 @@
   }
 
   .nav-right {
-    padding: 25px 20px 0;
+    padding: 25px 0 0 20px;
     display: flex;
   }
   .searchBar {

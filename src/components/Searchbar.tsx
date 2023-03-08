@@ -14,7 +14,8 @@ function SearchBar () {
 
   const navigate = useNavigate();
   useEffect(() => {
-    (searching !== '') ? navigate("search?" + searching) : navigate("");
+    if (searching !== '') { navigate("search?" + searching) }
+    else if(searchBarActive) navigate("");
     
   }, [searching])
 

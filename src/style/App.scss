@@ -67,3 +67,6 @@
     }
   }
 }
+.webContainer{
+  min-height: calc(100vh - $FooterHeight - $NavHeight);
+}

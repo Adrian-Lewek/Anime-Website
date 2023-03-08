@@ -3,11 +3,12 @@ import AnimeList from '../AnimeList.json';
 import { NavLink } from 'react-router-dom';
 import AnimeBrowse from '../components/AnimeList';
 import '../style/Homepage.scss'
+import AnimeBanner from '../components/AnimeBanner';
 
 
 
 export default function HomePage () {
-
+  let rAnimeArray:number[] = [];
   const banner = Images.filter(item => (item.type === 'banner'))[0]
 
   function getAnime(code:string) {
@@ -21,14 +22,27 @@ export default function HomePage () {
 
   const animePopular = [...AnimeList];
   const animeLastest = [...AnimeList];
+  let animeFantasy = [...AnimeList];
   animePopular.sort((a,b)=>{
     return b.rating - a.rating;
   })
   animeLastest.sort((a,b)=>{
     return b.year - a.year;
   })
-  const rAnime = Math.floor(Math.random()*9)
-
+  animeFantasy = animeFantasy.filter(item => item.genres.includes("FANTASY"))
+  function randomAnime() {
+    let rNumber = Math.floor(Math.random()*9);
+    if(rAnimeArray.length > 0 && rAnimeArray.length < AnimeList.length){
+      while (rAnimeArray.includes(rNumber)){
+        rNumber = Math.floor(Math.random()*9);
+      }
+      
+    }
+    rAnimeArray.push(rNumber)
+    return rNumber
+  }
+  let rAnime1 = randomAnime();
+  let rAnime2 = randomAnime();
   return (
     <div className='Mainpage'>
       <div className='mainBanner'>
@@ -42,24 +56,11 @@ export default function HomePage () {
         </div>
       </div>
       <AnimeBrowse title='Popular anime' desc='Most popular anime this season!' anime={animePopular}/>
-      
-      <div className='randomAnimeContainer'>
-        <div className="leftSide">
-          <img src={getImage(AnimeList[rAnime].shortCode).img} alt="AnimeLogo" />
-          <div className='shadowBox'></div>
-        </div>
-        <div className="rightSide">
-          <div className='title'><h1>{AnimeList[rAnime].title}</h1></div>
-          <div className="desc">{AnimeList[rAnime].desc}</div>
-          <div className="bottomContainer">
-            <div className="bottomDesc">{AnimeList[rAnime].type} <div className="unicode">{'\u2022'}</div> {AnimeList[rAnime].numOfEp} ep.</div>
-            <div className="button"><NavLink to="">SEE MORE</NavLink></div>
-          </div>
-          
-        </div>
-      </div>
-      
+      <AnimeBanner anime={AnimeList[rAnime1]} image={getImage(AnimeList[rAnime1].shortCode)}/>
       <AnimeBrowse title='lastest anime' desc='These anime came out recently!' anime={animeLastest}/>
+      <AnimeBrowse title='fantasy Anime' desc="you'll get a taste of fantasy in these anime!" anime={animeFantasy}/>
+      <AnimeBanner anime={AnimeList[rAnime2]} image={getImage(AnimeList[rAnime2].shortCode)}/>
+
     </div>
   )
 }

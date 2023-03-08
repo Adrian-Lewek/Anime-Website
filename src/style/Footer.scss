@@ -1,0 +1,87 @@
+@import "variables";
+.footerContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 1000px;
+  height: $FooterHeight;
+  background-color: $firstColor;
+  .upperSide{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    min-width: 1000px;
+    padding: 0 100px;
+    height: 230px;
+    justify-content: space-between;
+    margin: 50px auto 0;
+    border-bottom: 3px $fifthColor solid;
+    .header{
+      color: $thirdColor;
+      font-weight: 600;
+      font-size: 1.2em;
+      margin-bottom: 15px;
+    }
+    .collumn{
+      display: flex;
+      flex-direction: column;
+      a{
+        color: $sixthColor;
+        margin-bottom: 5px;
+        text-decoration: none;
+      }
+      
+    }
+    .subscribeContainer{
+      .desc{
+        color: $sixthColor;
+      }
+      form{
+        input[type=email]{
+          width: 310px;
+          height: 50px;
+          font-size: 0.9em;
+          padding-left: 10px;
+          border: none;
+          margin-bottom: 10px;
+          vertical-align: top;
+          &:focus{
+            outline: none;
+          }
+        }
+        input[type=submit]{
+          height: 50px;
+          width: 120px;
+          font-size: 0.8em;
+          font-weight: 600;
+          color: $thirdColor;
+          background-color: $fifthColor;
+          cursor: pointer;
+          border: none;
+          display: inline-block;
+          vertical-align: top
+        }
+      }
+      
+    }
+  }
+  .lowerSide{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    .socialLinks{
+      color: $sixthColor;
+      margin: 10px 0;
+      .item{
+        margin: 0 20px;
+        font-size: 2.4em;
+        color: $sixthColor;
+      }
+    }
+    .copyrights{
+      font-size: 0.75em;
+      color: $sixthColor
+    }
+  }
+}
