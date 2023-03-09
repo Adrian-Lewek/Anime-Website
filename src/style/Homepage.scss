@@ -4,6 +4,8 @@
     position: relative;
     width: 100%;
     height: 750px;
+    min-height: 450px;
+    max-height: calc(100vh - $NavHeight);
     img{
       position: absolute;
       object-fit:cover;
@@ -39,7 +41,7 @@
         width: 270px;
         text-align: center;
         height: 65px;
-
+        background-color: rgba(0, 0, 0, 0.3);
         position: absolute;
         bottom: 0;
         padding-top: 13px;
@@ -91,7 +93,7 @@
     }
   }
   .randomAnimeContainer{
-    width: $defaultWidth;
+    max-width: $defaultWidth;
     margin: 80px auto;
     height: 450px;
     background-color: $firstColor;
@@ -100,7 +102,9 @@
       position: relative;
       height: 100%;
       width: 300px;
+      
       img{
+        min-width: 300px;
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -179,6 +183,360 @@
             
           }
         }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1279px) {
+  .Mainpage{
+    .randomAnimeContainer{
+      width: 94%;
+      margin: 80px auto;
+      height: 450px;
+      .leftSide{
+        height: 100%;
+        width: 300px;
+      }
+    }
+        
+    .browseContainer{
+      .browseTitle{
+        font-size: 1.3em;
+      }
+      .browseDesc{
+        color: $sixthColor;
+        font-size: 0.9em;
+      }
+    }
+    .popularAnime{
+      width: 900px;
+      .popularAnimeContainer{
+        .animeItem:nth-child(n+5){
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 950px) {
+  
+  .Mainpage{
+    .randomAnimeContainer{
+      width: 94%;
+      margin: 80px auto;
+      height: 370px;
+      .leftSide{
+        height: 100%;
+        width: 270px;
+        
+        img{
+          min-width: 240px;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .rightSide{
+        .desc{
+          margin-top: 30px;
+          font-size: 0.95em;
+          -webkit-line-clamp: 5;
+        }
+        .bottomContainer{
+          .button{
+            width: 270px;
+            height: 65px;
+            font-size: 1.2em;
+            a{
+              padding-top: 14px;
+              height: 100%;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .mainBanner{
+      height: 650px;
+      .shadowBox{
+        .titleBox {
+          .title h1{
+            font-size: 3.4em;
+          }
+          .desc{
+            font-size: 1.8em;
+          }
+        }
+      }
+    }
+    .browseContainer{
+      .browseTitle{
+        font-size: 1.3em;
+      }
+      .browseDesc{
+        font-size: 0.9em;
+      }
+    }
+    .popularAnime{
+      width: 700px;
+      
+      .popularAnimeContainer{
+        .animeItem:nth-child(n+4){
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 750px) {
+  .Mainpage{
+    .randomAnimeContainer{
+      width: 94%;
+      margin: 80px auto;
+      height: 320px;
+      .leftSide{
+        height: 100%;
+        width: 200px;
+        
+        img{
+          min-width: 200px;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .rightSide{
+        width: 840px;
+        margin: 18px;
+        .title{
+          font-size: 0.8em;
+          color: $thirdColor;
+          -webkit-line-clamp: 1;
+        }
+        .desc{
+          margin-top: 18px;
+          font-size: 0.95em;
+          -webkit-line-clamp: 6;
+        }
+        .bottomContainer{
+          position: absolute;
+          width: 100%;
+          
+          .bottomDesc{
+            display: flex;
+            font-size: 0.9em;
+            flex-wrap: wrap;
+            .unicode{
+              margin: 0 5px;
+              
+            }
+          }
+          .button{
+            width: 200px;
+            height: 52px;
+            font-size: 1em;
+            a{
+              padding-top: 9px;
+              height: 100%;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .mainBanner{
+      height: 550px;
+      .shadowBox{
+        .titleBox {
+          .title h1{
+            font-size: 3.4em;
+          }
+          .desc{
+            font-size: 1.8em;
+          }
+        }
+        a{
+          width: 210px;
+          height: 60px;
+          font-size: 1em;
+          font-weight: 500;
+          padding-top: 16px;
+          @extend %button;
+          &:hover{
+            border-color: $fifthColor;
+            background-size: 100% 100%;
+          }
+        }
+      }
+      
+    }
+    .popularAnime{
+      width: 520px;
+    }
+  }
+}
+@media screen and (max-width: 550px) {
+  
+  .Mainpage{
+    .randomAnimeContainer{
+      width: 100%;
+      margin: 50px auto;
+      height: 220px;
+      .leftSide{
+        height: 100%;
+        width: 150px;
+        
+        img{
+          min-width: 150px;
+          width: 100%;
+          height: 100%;
+        }
+        .shadowBox{
+          height: 100%;
+          width: 100%;        
+        }
+      }
+      .rightSide{
+        width: 840px;
+        margin: 8px;
+        .title{
+          font-size: 0.5em;
+          color: $thirdColor;
+          -webkit-line-clamp: 1;
+        }
+        .desc{
+          margin-top: 5px;
+          font-size: 0.84em;
+          -webkit-line-clamp: 6;
+        }
+        .bottomContainer{
+          position: absolute;
+          width: 100%;
+          .bottomDesc{
+            display: flex;
+            font-size: 0.7em;
+            .unicode{
+              margin: 0 15px;
+            }
+          }
+          .button{
+            width: 120px;
+            height: 32px;
+            font-size: 0.75em;
+            border-width: 2px;
+            a{
+              padding-top: 6px;
+              height: 100%;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .mainBanner{
+      height: 480px;
+      .shadowBox{
+        .titleBox {
+          .title h1{
+            font-size: 2.7em;
+          }
+          .desc{
+            font-size: 1.4em;
+          }
+        }
+      }
+    }
+    .popularAnime{
+      .browseContainer{
+        .browseTitle{
+          color: $thirdColor;
+          text-transform: capitalize;
+          font-size: 1.3em;
+          font-weight: 600;
+        }
+        .browseDesc{
+          color: $sixthColor;
+          font-size: 0.8em;
+        }
+        .rightSide{
+          display: flex;
+          align-items: center;
+          a{
+            text-decoration: none;
+            color: $sixthColor;
+          }
+        }
+      }
+      width: 90%;
+      height: auto;
+      .popularAnimeContainer{
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: space-evenly;
+        .animeItem:nth-child(n+4){
+          display: none;
+        }
+        .animeItem:nth-child(n+5){
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 522px) {
+  .Mainpage{
+    .popularAnime{
+      .popularAnimeContainer{
+        .animeItem:nth-child(n+4){
+          display: block;
+        }
+        .animeItem:nth-child(n+5){
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .Mainpage{
+    .randomAnimeContainer{
+      width: 100%;
+      margin: 30px auto;
+      height: 195px;
+      .leftSide{
+        height: 100%;
+        width: 120px;
+        
+        img{
+          min-width: 120px;
+          width: 100%;
+          height: 100%;
+        }
+        .shadowBox{
+          height: 100%;
+          width: 100%;        
+        }
+      }
+      .rightSide{
+        width: 840px;
+        margin: 8px;
+        .desc{
+          -webkit-line-clamp: 5;
+        }
+        .bottomContainer{
+          .bottomDesc{
+            .unicode{
+              margin: 0 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 342px) {
+  .Mainpage{
+    .popularAnime{
+      .popularAnimeContainer{
+        gap: 5px;
       }
     }
   }

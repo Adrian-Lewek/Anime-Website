@@ -6,7 +6,7 @@ import {Route,Routes} from 'react-router-dom'
 import Navbar from '../components/Navbar';
 import Homepage from './Homepage';
 import Footer from '../components/Footer';
-
+import Errorpage from './Errorpage';
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
       <div className='webContainer'>
       <Routes>
         <Route path="/" element={<Homepage/>}></Route>
+        <Route path="*" element={<Errorpage/>}></Route>
       </Routes>
       </div>
       <Footer/>

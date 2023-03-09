@@ -27,7 +27,7 @@ const AnimeBanner:FunctionComponent<animeType> = ({anime, image}) => {
           <div className='title'><h1>{anime.title}</h1></div>
           <div className="desc">{anime.desc}</div>
           <div className="bottomContainer">
-            <div className="bottomDesc">{anime.type} <div className="unicode">{'\u2022'}</div> {anime.numOfEp} ep.</div>
+            <div className="bottomDesc"><div>{anime.type}</div> <div className="unicode">{'\u2022'}</div> <div>{anime.numOfEp} ep.</div></div>
             <div className="button"><NavLink to="">SEE MORE</NavLink></div>
           </div>
           
