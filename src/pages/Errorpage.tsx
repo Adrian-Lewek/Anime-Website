@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import zoro from '../images/other/zoroError.png';
 export default function Errorpage(){
   return(
     <div className="ErrorContainer">

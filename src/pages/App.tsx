@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar';
 import Homepage from './Homepage';
 import Footer from '../components/Footer';
 import Errorpage from './Errorpage';
-
+import Browsepage from './Browsepage';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <div className='webContainer'>
       <Routes>
         <Route path="/" element={<Homepage/>}></Route>
+        <Route path="/browse" element={<Browsepage/>}></Route>
         <Route path="*" element={<Errorpage/>}></Route>
       </Routes>
       </div>
