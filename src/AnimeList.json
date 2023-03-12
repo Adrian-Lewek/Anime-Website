@@ -146,5 +146,189 @@
       "ADVENTURE",
       "COMEDY"
     ]
+  },
+  {
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "desc": "Alchemy is bound by this Law of Equivalent Exchange—something the young brothers Edward and Alphonse Elric only realize after attempting human transmutation: the one forbidden act of alchemy. They pay a terrible price for their transgression—Edward loses his left leg, Alphonse his physical body. It is only by the desperate sacrifice of Edward's right arm that he is able to affix Alphonse's soul to a suit of armor. Devastated and alone, it is the hope that they would both eventually return to their original bodies that gives Edward the inspiration to obtain metal limbs called \"automail\" and become a state alchemist, the Fullmetal Alchemist.",
+    "numOfEp": 64,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "FAB",
+    "rating": 90,
+    "year": 2009,
+    "studio": "BONES",
+    "genres":[
+      "ACTION",
+      "ADVENTURE",
+      "DRAMA",
+      "FANTASY"
+    ]
+  },
+  {
+    "title": "Hunter x Hunter (2011)",
+    "desc": "A Hunter is one who travels the world doing all sorts of dangerous tasks. From capturing criminals to searching deep within uncharted lands for any lost treasures. Gon is a young boy whose father disappeared long ago, being a Hunter. He believes if he could also follow his father's path, he could one day reunite with him. After becoming 12, Gon leaves his home and takes on the task of entering the Hunter exam, notorious for its low success rate and high probability of death to become an official Hunter. He befriends the revenge-driven Kurapika, the doctor-to-be Leorio and the rebellious ex-assassin Killua in the exam, with their friendship prevailing throughout the many trials and threats they come upon taking on the dangerous career of a Hunter.",
+    "numOfEp": 148,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "HXH",
+    "rating": 89,
+    "year": 2011,
+    "studio": "MADHOUSE",
+    "genres":[
+      "ACTION",
+      "ADVENTURE",
+      "FANTASY"
+    ]
+  },
+  {
+    "title": "Vinland Saga",
+    "desc": "Thorfinn is son to one of the Vikings' greatest warriors, but when his father is killed in battle by the mercenary leader Askeladd, he swears to have his revenge. Thorfinn joins Askeladd's band in order to challenge him to a duel, and ends up caught in the middle of a war for the crown of England.",
+    "numOfEp": 24,
+    "numOfSeasons": 2,
+    "type": "TV",
+    "shortCode": "VS",
+    "rating": 87,
+    "year": 2019,
+    "studio": "WIT",
+    "genres":[
+      "ACTION",
+      "DRAMA",
+      "ADVENTURE"
+    ]
+  },
+  {
+    "title": "CYBERPUNK: EDGERUNNERS",
+    "desc": "CYBERPUNK: EDGERUNNERS tells a standalone, 10-episode story about a street kid trying to survive in a technology and body modification-obsessed city of the future. Having everything to lose, he chooses to stay alive by becoming an edgerunner—a mercenary outlaw also known as a cyberpunk.",
+    "numOfEp": 10,
+    "numOfSeasons": 1,
+    "type": "ONA",
+    "shortCode": "CE",
+    "rating": 85,
+    "year": 2022,
+    "studio": "TRIGGER",
+    "genres":[
+      "ACTION",
+      "DRAMA",
+      "PSYCHOLOGICAL",
+      "SCI-FI"
+    ]
+  },
+  {
+    "title": "JUJUTSU KAISEN",
+    "desc": "Hardship, regret, shame: the negative feelings that humans feel become Curses that lurk in our everyday lives. The Curses run rampant throughout the world, capable of leading people to terrible misfortune and even death. What's more, the Curses can only be exorcised by another Curse. Itadori Yuji is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a friend who has been attacked by Curses, he eats the finger of the Double-Faced Specter, taking the Curse into his own soul. From then on, he shares one body with the Double-Faced Specter. Guided by the most powerful of sorcerers, Gojou Satoru, Itadori is admitted to the Tokyo Metropolitan Technical High School of Sorcery, an organization that fights the Curses... and thus begins the heroic tale of a boy who became a Curse to exorcise a Curse, a life from which he could never turn back.",
+    "numOfEp": 24,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "JK",
+    "rating": 86,
+    "year": 2020,
+    "studio": "MAPPA",
+    "genres":[
+      "ACTION",
+      "DRAMA",
+      "SUPERNATURAL"
+    ]
+  },
+  {
+    "title": "The Promised Neverland",
+    "desc": "Emma, Norman and Ray are the brightest kids at the Grace Field House orphanage. And under the care of the woman they refer to as “Mom,” all the kids have enjoyed a comfortable life. Good food, clean clothes and the perfect environment to learn—what more could an orphan ask for? One day, though, Emma and Norman uncover the dark truth of the outside world they are forbidden from seeing.",
+    "numOfEp": 12,
+    "numOfSeasons": 2,
+    "type": "TV",
+    "shortCode": "TPN",
+    "rating": 84,
+    "year": 2019,
+    "studio": "CLOVERWORKS",
+    "genres":[
+      "DRAMA",
+      "FANTASY",
+      "HORROR",
+      "MYSTERY",
+      "PSYCHOLOGICAL",
+      "THRILLER"
+    ]
+  },
+  {
+    "title": "Death Note",
+    "desc": "Light Yagami is a genius high school student who is about to learn about life through a book of death. When a bored shinigami, a God of Death, named Ryuk drops a black notepad called a Death Note, Light receives power over life and death with the stroke of a pen. Determined to use this dark gift for the best, Light sets out to rid the world of evil… namely, the people he believes to be evil. Should anyone hold such power?",
+    "numOfEp": 37,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "DN",
+    "rating": 84,
+    "year": 2006,
+    "studio": "MADHOUSE",
+    "genres":[
+      "MYSTERY",
+      "PSYCHOLOGICAL",
+      "SUPERNATURAL",
+      "THRILLER"
+    ]
+  },
+  {
+    "title": "The Disastrous Life of Saiki K.",
+    "desc": "To the average person, psychic abilities might seem a blessing; for Kusuo Saiki, however, this couldn't be further from the truth. Gifted with a wide assortment of supernatural abilities ranging from telepathy to x-ray vision, he finds this so-called blessing to be nothing but a curse. As all the inconveniences his powers cause constantly pile up, all Kusuo aims for is an ordinary, hassle-free life—a life where ignorance is bliss. Unfortunately, the life of a psychic is far from quiet. Though Kusuo tries to stay out of the spotlight by keeping his powers a secret from his classmates, he ends up inadvertently attracting the attention of many odd characters, such as the empty-headed Riki Nendou and the delusional Shun Kaidou. Forced to deal with the craziness of the people around him, Kusuo comes to learn that the ordinary life he has been striving for is a lot more difficult to achieve than expected.",
+    "numOfEp": 120,
+    "numOfSeasons": 2,
+    "type": "TV",
+    "shortCode": "TDLOSK",
+    "rating": 83,
+    "year": 2016,
+    "studio": "EGG FIRM",
+    "genres":[
+      "COMEDY",
+      "SLICE OF LiFE",
+      "SUPERNATURAL"
+    ]
+  },
+  {
+    "title": "Mushoku Tensei: Jobless Reincarnation",
+    "desc": "When a 34-year-old underachiever gets run over by a bus, his story doesn’t end there. Reincarnated in a new world as an infant, Rudeus will seize every opportunity to live the life he’s always wanted. Armed with new friends, some freshly acquired magical abilities, and the courage to do the things he’s always dreamed of, he’s embarking on an epic adventure—with all of his past experience intact!",
+    "numOfEp": 11,
+    "numOfSeasons": 2,
+    "type": "TV",
+    "shortCode": "MTJR",
+    "rating": 82,
+    "year": 2021,
+    "studio": "BIND",
+    "genres":[
+      "ADVENTURE",
+      "DRAMA",
+      "ECCHI",
+      "FANTASY"
+    ]
+  },
+  {
+    "title": "Steins;Gate",
+    "desc": "Self-proclaimed mad scientist Okabe Rintarou lives in a small room in Akihabara, where he invents \"future gadgets\" with fellow lab members Shiina Mayuri, his air-headed childhood friend, and Hashida Itaru, an otaku hacker. The three pass the time by tinkering with their latest creation, a \"Phone Microwave\" that can be controlled through text messages. The lab members soon face a string of mysterious incidents that lead to a game-changing discovery: the Phone Microwave can send emails to the past and thus alter history. Adapted from the critically acclaimed visual novel by 5pb. and Nitroplus, Steins;Gate takes Okabe to the depths of scientific theory and human despair as he faces the dire consequences of changing the past",
+    "numOfEp": 24,
+    "numOfSeasons": 2,
+    "type": "TV",
+    "shortCode": "SG",
+    "rating": 89,
+    "year": 2011,
+    "studio": "WHITE FOX",
+    "genres":[
+      "DRAMA",
+      "PSYCHOLOGICAL",
+      "SCI-FI",
+      "THRILLER"
+    ]
+  },
+  {
+    "title": "Bleach",
+    "desc": "Ichigo Kurosaki is a rather normal high school student apart from the fact he has the ability to see ghosts. This ability never impacted his life in a major way until the day he encounters the Shinigami Kuchiki Rukia, who saves him and his family's lives from a Hollow, a corrupt spirit that devours human souls. Wounded during the fight against the Hollow, Rukia chooses the only option available to defeat the monster and passes her Shinigami powers to Ichigo. Now forced to act as a substitute until Rukia recovers, Ichigo hunts down the Hollows that plague his town.",
+    "numOfEp": 366,
+    "numOfSeasons": 2,
+    "type": "TV",
+    "shortCode": "BLEACH",
+    "rating": 77,
+    "year": 2012,
+    "studio": "PIEROT",
+    "genres":[
+      "ACTION",
+      "ADVENTURE",
+      "SUPERNATURAL"
+    ]
   }
 ]

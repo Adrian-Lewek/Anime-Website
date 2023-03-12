@@ -10,7 +10,7 @@ const SearchInput: FunctionComponent<SearchInputProps> = ({ inputClass }) => {
   const searching = useSelector(state => state) as string;
   const dispatch = useDispatch();
   return (
-    <input autoFocus className={inputClass} value={searching} onChange={(e) => dispatch({type: 'CHANGE', payload: e.target.value})}/>
+    <input autoFocus placeholder='Search anime' className={inputClass} value={searching} onChange={(e) => dispatch({type: 'CHANGE', payload: e.target.value})}/>
   );
 };
 

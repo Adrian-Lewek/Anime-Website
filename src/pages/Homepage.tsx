@@ -31,7 +31,7 @@ export default function HomePage () {
   })
   animeFantasy = animeFantasy.filter(item => item.genres.includes("FANTASY"))
   function randomAnime() {
-    let rNumber = Math.floor(Math.random()*9);
+    let rNumber = Math.floor(Math.random()*AnimeList.length);
     if(rAnimeArray.length > 0 && rAnimeArray.length < AnimeList.length){
       while (rAnimeArray.includes(rNumber)){
         rNumber = Math.floor(Math.random()*9);

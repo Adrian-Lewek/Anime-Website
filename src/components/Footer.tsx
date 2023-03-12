@@ -35,7 +35,7 @@ export default function Footer() {
       </div>
       <div className="lowerSide">
         <div className="socialLinks">
-          <a href="https://github.com/Adrian-Lewek" rel="noreferrer" target="_blank" className="item">
+          <a href="https://www.linkedin.com/in/adrian-lewek-5b53061a1/" rel="noreferrer" target="_blank" className="item">
             <AiFillLinkedin/>
           </a>
           <a href="https://github.com/Adrian-Lewek" rel="noreferrer" target="_blank" className="item">

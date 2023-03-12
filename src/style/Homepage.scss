@@ -606,6 +606,14 @@
         flex-wrap: wrap;
         gap: 25px;
         justify-content: space-evenly;
+        .animeItem{
+          .shadowBox{
+            height: Calc(100% - 70px);;
+          }
+          .itemTitleContainer{
+            height: 70px;
+          }
+        }
         .animeItem:nth-child(n+4){
           display: none;
         }

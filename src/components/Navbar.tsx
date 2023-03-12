@@ -18,7 +18,7 @@ export default function Navbar() {
           <div className={openMenu ? "mobileMenu activeItem" : "mobileMenu"} onClick={() => handleMenuClick()}>
             <GiHamburgerMenu/>
           </div>
-          <NavLink to="/search"><FaSearch/></NavLink>
+          <Searchbar mobile={false}/>
         </div>
         <div className={openMenu ? "activeMenu" : "mobileMenuContainer"}>
           <div className="menuFirst">
