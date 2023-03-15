@@ -14,9 +14,10 @@ interface animeType {
     img: string;
     type: string;
     name: string;
-  }
+  },
+  buttonText: string;
 }
-const AnimeBanner:FunctionComponent<animeType> = ({anime, image}) => {
+const AnimeBanner:FunctionComponent<animeType> = ({anime, image, buttonText}) => {
   return (
     <div className='randomAnimeContainer'>
         <div className="leftSide">
@@ -28,7 +29,7 @@ const AnimeBanner:FunctionComponent<animeType> = ({anime, image}) => {
           <div className="desc">{anime.desc}</div>
           <div className="bottomContainer">
             <div className="bottomDesc"><div>{anime.type}</div> <div className="unicode">{'\u2022'}</div> <div>{anime.numOfEp} ep.</div></div>
-            <div className="button"><NavLink to="">SEE MORE</NavLink></div>
+            <div className="button"><NavLink to={"/anime/" + anime.shortCode}>{buttonText}</NavLink></div>
           </div>
           
         </div>

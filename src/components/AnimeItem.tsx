@@ -20,7 +20,7 @@ const AnimeItem: FunctionComponent<animeType> = ({ anime }) => {
     <div className="animeItem">
       <img src={Images.filter(item=>(item.name === anime.shortCode && item.type === "logo"))[0].img} alt="" />
       <div className="shadowBox"/>
-      <NavLink className="clickBox" to=""> <BsFillPlayFill/> </NavLink>
+      <NavLink className="clickBox" to={"/anime/" + anime.shortCode}> <BsFillPlayFill/> </NavLink>
       <div className="itemTitleContainer">
       <div className="itemTitle">
         {anime.title}

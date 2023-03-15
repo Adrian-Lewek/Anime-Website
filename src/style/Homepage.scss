@@ -1,4 +1,72 @@
 @import "variables";
+.animeItem{
+  user-select: none;
+  width: 200px;
+  height: 320px;
+  position: relative;
+  img{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .itemTitleContainer{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    z-index: 10;
+    background-color: $firstColor;
+  }
+  .itemTitle{
+    color: $thirdColor;
+    font-size: 0.9em;
+    padding: 4px 7px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .shadowBox{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: Calc(100% - 80px);;
+    top: 0;
+    background: linear-gradient(0deg, rgba(35,43,53,1) 0%, rgba(35,43,53, 0.15) 30%);
+  }
+  .clickBox{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 240px;
+    top: 0;
+    background-color: $firstColor;
+    opacity: 0%;
+    transition: 0.3s;
+    color: white;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &:hover{
+      opacity: 75%;
+    }
+  }
+  .itemDesc{
+    display: flex;
+    color: $fourthColor;
+    font-size: 0.72em;
+    margin: 0 10px;
+    
+    position: absolute;
+    bottom: 7px;
+    .unicode{
+      margin: 0 10px;
+    }
+  }
+}
 .Mainpage{
   .mainBanner{
     position: relative;
@@ -161,96 +229,97 @@
       justify-content: space-between ;
     }
   }
-  .randomAnimeContainer{
-    max-width: $defaultWidth;
-    margin: 80px auto;
-    height: 410px;
-    background-color: $firstColor;
-    display: flex;
-    .leftSide{
-      position: relative;
-      height: 100%;
-      width: 290px;
-      
-      img{
-        min-width: 290px;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .shadowBox{
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        z-index: 3;
-        bottom: 0;
-        background: linear-gradient(270deg, rgba(35,43,53,1) 0%, rgba(35,43,53,0.16) 30%);
-      }
-    }
-    .rightSide{
-      width: 840px;
-      position: relative;
-      margin: 30px;
-      .title{
-        color: $thirdColor;
-        overflow: hidden;
-        display: -webkit-box;
-        -webkit-line-clamp: 1;
-        -webkit-box-orient: vertical;
-        h1{margin: 0;}
-      }
-      .desc{
-        color: $sixthColor;
-        margin-top: 30px;
-        font-size: 0.95em;
-        overflow: hidden;
-        display: -webkit-box;
-        -webkit-line-clamp: 7;
-        -webkit-box-orient: vertical;
-      }
-      .bottomContainer{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        .bottomDesc{
-          display: flex;
-          font-size: 0.9em;
-          align-items: center;
-          color: $fourthColor;
-          .unicode{
-            margin: 0 15px;
-          }
-        }
-        .button{
-          
-          width: 250px;
-          height: 60px;
-          display: flex;
-          text-align: center;
-          
 
-          font-size: 1.2em;
-          color: $thirdColor;
-          border: 3px solid $thirdColor;
-          font-weight: 500;
-          transition: 0.4s;
-          @extend %button;
-          &:hover{
-            border-color: $fifthColor;
-            background-size: 100% 100%;
-          }
-          a{
-            padding-top: 10px;
-            height: 100%;
-            width: 100%;
-            color: white;
-            text-decoration: none;
-           
-            
-          }
+}
+.randomAnimeContainer{
+  max-width: $defaultWidth;
+  margin: 80px auto;
+  height: 410px;
+  background-color: $firstColor;
+  display: flex;
+  .leftSide{
+    position: relative;
+    height: 100%;
+    width: 290px;
+    
+    img{
+      min-width: 290px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .shadowBox{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 3;
+      bottom: 0;
+      background: linear-gradient(270deg, rgba(35,43,53,1) 0%, rgba(35,43,53,0.16) 30%);
+    }
+  }
+  .rightSide{
+    width: 840px;
+    position: relative;
+    margin: 30px;
+    .title{
+      color: $thirdColor;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      h1{margin: 0;}
+    }
+    .desc{
+      color: $sixthColor;
+      margin-top: 30px;
+      font-size: 0.95em;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 7;
+      -webkit-box-orient: vertical;
+    }
+    .bottomContainer{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      .bottomDesc{
+        display: flex;
+        font-size: 0.9em;
+        align-items: center;
+        color: $fourthColor;
+        .unicode{
+          margin: 0 15px;
+        }
+      }
+      .button{
+        
+        width: 250px;
+        height: 60px;
+        display: flex;
+        text-align: center;
+        
+
+        font-size: 1.2em;
+        color: $thirdColor;
+        border: 3px solid $thirdColor;
+        font-weight: 500;
+        transition: 0.4s;
+        @extend %button;
+        &:hover{
+          border-color: $fifthColor;
+          background-size: 100% 100%;
+        }
+        a{
+          padding-top: 10px;
+          height: 100%;
+          width: 100%;
+          color: white;
+          text-decoration: none;
+         
+          
         }
       }
     }
@@ -607,7 +676,7 @@
         gap: 25px;
         justify-content: space-evenly;
         .animeItem{
-          .shadowBox{
+          .shadowBox, .clickBox{
             height: Calc(100% - 70px);;
           }
           .itemTitleContainer{

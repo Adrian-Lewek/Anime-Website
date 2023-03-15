@@ -4,7 +4,7 @@ import AnimeItem from "../components/AnimeItem"
 import Select, { MultiValue, SingleValue } from 'react-select'
 import "../style/Browsepage.scss";
 import { useSelector } from "react-redux";
-import SearchInput from '../components/SearchInput';
+import {BiSlider} from "react-icons/bi"
 export default function Browsepage(){
   const searching = useSelector(state => state) as string;
   const [filterGenres, setFilterGenres] = useState<MultiValue<selectEvent>>([])
@@ -12,6 +12,7 @@ export default function Browsepage(){
   const [filterStudio, setFilterStudio] = useState<string | undefined>("")
   const [filteredAnime, setFilteredAnime] = useState([...AnimeList]);
   const [sortBy, setSortBy] = useState<string | undefined>("");
+  const [displayMenu, setDisplayMenu] = useState(false);
   type selectEvent = {
     value: string;
     label: string;
@@ -58,7 +59,9 @@ export default function Browsepage(){
   function handleChangeSort (e:SingleValue<selectEvent>){
     setSortBy(e?.value)
   }
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   useEffect(()=>{
     let filteredG = AnimeList.filter(item => {
       let temp = filterGenres.filter(genre => {
@@ -108,7 +111,8 @@ export default function Browsepage(){
       <div className="itemsContainer">
         {filteredAnime.length> 0 ? filteredAnime.map((item, index) => <AnimeItem anime={item} key={index}/>) : <div className='noAnime'>There are no anime matching the filters given</div>}
       </div>
-      <div className="filterContainer">
+      <div className='menuClickBox' onClick={() => setDisplayMenu(!displayMenu)}><BiSlider/></div>
+      <div className={displayMenu? "filterContainer" :"filterContainer hideFilterMenu"}>
         <div className="title">Filter Options</div>
         <div className="filterItem">
           <div className='labelTitle'>Genres</div>

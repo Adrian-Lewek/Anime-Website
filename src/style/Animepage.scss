@@ -1,0 +1,304 @@
+@import "variables";
+.Anime{
+  width: 100%;
+  display: flex;
+  height: 730px;
+  .background{
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    z-index: -2;
+    display: flex;
+    flex-direction: column;
+    .backgroundContainer{
+      z-index: -2;
+      width: 100%;
+      height: 350px;
+      background-position: center;
+      background-size: cover;
+      filter: blur(22px);
+      position: relative;
+    }
+    .backgroundBottom{
+      height: 300px;
+      width: 100%;
+      position: relative;
+      z-index: -1;
+      background-color: $secondColor;
+    }
+  }
+  .animeContainer{
+    width: 70%;
+    z-index: 1;
+    display: flex;
+    padding-top: 175px;
+    justify-content: center;
+    .randomAnimeContainer{
+      max-width: 900px;
+      height: 380px;
+      margin: 0;
+      background-color: $firstColor;
+      display: flex;
+      .leftSide{
+        width: 250px;
+        img{
+          min-width: 250px;
+        }
+        .shadowBox{
+          display: none;
+        }
+      }
+      .rightSide{
+        width: 840px;
+        position: relative;
+        margin: 20px;
+        .title{
+          font-size: 0.8em;
+        }
+        .desc{
+          margin-top: 15px;
+          font-size: 0.9em;
+          max-height: 200px;
+          overflow: auto;
+          display: block;
+          padding-right: 10px;
+          &::-webkit-scrollbar {
+            width: 10px; 
+          }
+          
+          &::-webkit-scrollbar-track {
+          background-color: $secondColor;
+          }
+          
+          &::-webkit-scrollbar-thumb {
+          background: #37495a;
+          }
+        }
+        .bottomContainer{
+          .button{
+            width: 200px;
+            height: 45px;
+            display: flex;
+            text-align: center;
+            font-size: 1em;
+            font-weight: 500;
+            @extend %button;
+            &:hover{
+              border-color: $fifthColor;
+              background-size: 100% 100%;
+            }
+            a{
+              padding-top: 6px;
+              
+            }
+          }
+        }
+      }
+    }
+    }
+  .rightside{
+    width: 400px;
+    height: 100%;
+    position: relative;
+    
+    .backgroundOpacity{
+      width: 100%;
+      height: 100%;
+      background-color: $firstColor;
+      position: absolute;
+      opacity: 70%;
+    }
+    .descContainer{
+      position: relative;
+      z-index: 2;
+      padding: 90px 30px;
+      color: $thirdColor;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      
+      .itemContainer{
+        display: flex;
+        align-items: baseline ;
+        .text{
+          font-size: 0.85em;
+          text-transform: capitalize;
+        }
+        .bold{
+          font-weight: 600;
+          margin-right: 8px;
+          font-size: 0.9em;
+        }
+      }
+      .Genres{
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 1px $sixthColor solid;
+        padding: 15px 0;
+        gap: 10px;
+        margin: 15px 0;
+        .bold{
+          margin: 0;
+        }
+        .genreItem{
+          font-size: 0.65em;
+          padding: 5px;
+          border: 1px $thirdColor solid;
+          border-radius: 10px;
+          
+        }  
+      }
+      .description, .descriptionTitle{
+        display: none;
+      }
+    }
+  }
+}
+.RecomendedAnime{
+  .titleBar{
+    width: 100%;
+    height: 80px;
+    background-color: $firstColor;
+    display: flex;
+    align-items: center;
+    font-size: 1.7em;
+    color: $thirdColor;
+    font-weight: 600;
+    padding: 0 40px;
+  }
+  .animeContainer{
+    width: 70%;
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 30px;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .Anime{
+    .animeContainer{
+      .randomAnimeContainer{
+        max-width: 800px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1260px) {
+  .Anime{
+    flex-direction: column;
+    height: auto;
+    .animeContainer{
+      width: 100%;
+      .randomAnimeContainer{
+        max-width: 900px;
+      }
+    }
+    .rightside{
+      margin: 30px 0 ;
+      width: 100%;
+      .descContainer{
+        padding: 40px 30px;
+        .Genres{
+          padding: 0;
+          border: 0;
+          margin: 0;
+        }
+      }
+
+    }
+  }
+  
+}
+@media screen and (max-width: 1000px) {
+  .Anime{
+    .animeContainer{
+      .randomAnimeContainer{
+        max-width: 800px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 880px) {
+  .Anime{
+    .animeContainer{
+      padding-top: 100px;
+      .randomAnimeContainer{
+        max-width: 800px;
+        flex-direction: column;
+        height: auto;
+        width: 270px;
+        .leftSide{
+          width: 100%;
+          img{
+            min-width: 100%;
+            height: 340px;
+          }
+        }
+        .rightSide{
+          display: flex;
+          flex-direction: column;
+          margin: 0;
+          width: 100%;
+          gap: 5px;
+          .title{
+            text-align: center;
+            font-size: 0.6em;
+          }
+          .desc{
+            display: none;
+          }
+          .bottomContainer{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            justify-content: center;
+            gap: 20px;
+            .bottomDesc{
+              font-size: 0.7em;
+              justify-content: center;
+              
+            }
+            .button{
+              margin: 0 auto 10px;
+            }
+          }
+        }
+      }
+    }
+    .rightside{
+      .desc{
+        display: block;
+      }
+      
+      .descContainer{
+        padding: 30px 20px;
+        .description{
+          display: block;
+          padding-right: 5px;
+          max-height: 150px;
+          overflow-y : auto;
+          &::-webkit-scrollbar {
+            width: 10px; 
+          }
+          
+          &::-webkit-scrollbar-track {
+          background-color: $secondColor;
+          }
+          
+          &::-webkit-scrollbar-thumb {
+          background: #37495a;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 580px) {
+  .Anime{
+    .animeContainer{
+      padding-top: 50px;
+    }
+  }
+}

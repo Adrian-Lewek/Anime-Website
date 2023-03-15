@@ -25,11 +25,7 @@ const AnimeList: FunctionComponent<animeType> = ({ title, desc, anime }) => {
         
         <div className="popularAnimeContainer">
           {anime.map((item, index) => {
-            if( i < 5) {
-              i++;
-              return <AnimeItem anime={item} key={index}/>;
-            } 
-            return null
+            return <AnimeItem anime={item} key={index}/>;
           })}
         </div>
       </div>

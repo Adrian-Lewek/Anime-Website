@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import AnimeBrowse from '../components/AnimeList';
 import '../style/Homepage.scss'
 import AnimeBanner from '../components/AnimeBanner';
+import { useEffect } from 'react';
 
 
 
@@ -30,6 +31,11 @@ export default function HomePage () {
     return b.year - a.year;
   })
   animeFantasy = animeFantasy.filter(item => item.genres.includes("FANTASY"))
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   function randomAnime() {
     let rNumber = Math.floor(Math.random()*AnimeList.length);
     if(rAnimeArray.length > 0 && rAnimeArray.length < AnimeList.length){
@@ -52,14 +58,14 @@ export default function HomePage () {
             <div className="title"><h1>{getAnime(banner.name).title}</h1></div>
             <div className="desc">Available Now!</div>
           </div>
-          <NavLink to="" >SEE MORE</NavLink>
+          <NavLink to={"/anime/" + getAnime(banner.name).shortCode} >SEE MORE</NavLink>
         </div>
       </div>
-      <AnimeBrowse title='Popular anime' desc='Most popular anime this season!' anime={animePopular}/>
-      <AnimeBanner anime={AnimeList[rAnime1]} image={getImage(AnimeList[rAnime1].shortCode)}/>
-      <AnimeBrowse title='lastest anime' desc='These anime came out recently!' anime={animeLastest}/>
-      <AnimeBrowse title='fantasy Anime' desc="You'll get a taste of fantasy in these anime!" anime={animeFantasy}/>
-      <AnimeBanner anime={AnimeList[rAnime2]} image={getImage(AnimeList[rAnime2].shortCode)}/>
+      <AnimeBrowse title='Popular anime' desc='Most popular anime this season!' anime={animePopular.slice(0,5)}/>
+      <AnimeBanner buttonText="SEE MORE" anime={AnimeList[rAnime1]} image={getImage(AnimeList[rAnime1].shortCode)}/>
+      <AnimeBrowse title='lastest anime' desc='These anime came out recently!' anime={animeLastest.slice(0,5)}/>
+      <AnimeBrowse title='fantasy Anime' desc="You'll get a taste of fantasy in these anime!" anime={animeFantasy.slice(0,5)}/>
+      <AnimeBanner buttonText="SEE MORE" anime={AnimeList[rAnime2]} image={getImage(AnimeList[rAnime2].shortCode)}/>
 
     </div>
   )

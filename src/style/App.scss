@@ -1,5 +1,16 @@
 @import "variables";
 
+html::-webkit-scrollbar {
+  width: 13px; 
+}
+
+html::-webkit-scrollbar-track {
+background-color: $secondColor;
+}
+
+html::-webkit-scrollbar-thumb {
+background: #37495a;
+}
 
 .webContainer{
   min-height: calc(100vh - $FooterHeight - $NavHeight);
