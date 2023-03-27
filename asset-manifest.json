@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Anime-Website/static/css/main.a6a611aa.css",
-    "main.js": "/Anime-Website/static/js/main.d401a1f4.js",
+    "main.js": "/Anime-Website/static/js/main.d8fd9037.js",
     "static/media/NFNO_logo.png": "/Anime-Website/static/media/NFNO_logo.ffa5cfda517057ad1682.png",
     "static/media/CM_banner.jpg": "/Anime-Website/static/media/CM_banner.a53244d8a2178a1f243e.jpg",
     "static/media/OP_logo.jpg": "/Anime-Website/static/media/OP_logo.15e453ad390f4c2ced66.jpg",
@@ -35,10 +35,10 @@
     "static/media/BLEACH_logo.jpg": "/Anime-Website/static/media/BLEACH_logo.56978064d95d4a64fd01.jpg",
     "index.html": "/Anime-Website/index.html",
     "main.a6a611aa.css.map": "/Anime-Website/static/css/main.a6a611aa.css.map",
-    "main.d401a1f4.js.map": "/Anime-Website/static/js/main.d401a1f4.js.map"
+    "main.d8fd9037.js.map": "/Anime-Website/static/js/main.d8fd9037.js.map"
   },
   "entrypoints": [
     "static/css/main.a6a611aa.css",
-    "static/js/main.d401a1f4.js"
+    "static/js/main.d8fd9037.js"
   ]
 }
