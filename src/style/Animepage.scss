@@ -506,8 +506,9 @@
         max-width: 440px !important;
         grid-template-columns: repeat(auto-fill, 180px)!important;
         gap: 10px !important;
-        .animeItem:nth-child(n+10){
-          display: block;
+        height: 1170px !important;
+        .animeItem:nth-child(n+9){
+          display: none;
         }
         .animeItem{
           height: 270px;
@@ -521,6 +522,59 @@
   .Anime{
     .animeContainer{
       padding-top: 50px;
+    }
+  }
+}
+@media screen and (max-width: 440px) {
+  .titleBar{
+    font-size: 1.4em !important;
+    padding: 0 !important;
+    justify-content: center;
+  }
+  .bottomContainer{
+    .leftSide{
+      .animeContainer{
+        height: 1010px !important;
+        gap: 20px 5px !important; 
+        max-width: 350px !important;
+        padding: 10px !important; 
+        grid-template-columns: repeat(auto-fill, 150px) !important;
+        grid-template-rows: repeat(auto-fill, 240px)!important;
+        .animeItem{
+          
+          max-width: 150px !important;
+          height: 240px !important;
+          .itemTitleContainer{
+            height: 70px;
+            .itemTitle{
+              font-size: 0.8em;
+              height: 41px;
+            }
+          }
+          .shadowBox{
+            height: Calc(100% - 70px);;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 440px) {
+  .titleBar{
+    font-size: 1.4em !important;
+    padding: 0 !important;
+    justify-content: center;
+  }
+  .bottomContainer{
+    .leftSide{
+      .animeContainer{
+        padding: 7px !important; 
+        grid-template-rows: repeat(auto-fill, 230px)!important;
+        .animeItem{
+          
+          height: 230px !important;
+        }
+      }
     }
   }
 }
