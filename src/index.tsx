@@ -4,7 +4,7 @@ import './style/index.scss';
 import App from './pages/App';
 import {store} from './redux/store'
 import { Provider } from 'react-redux';
-import {  HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,9 +12,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-    <HashRouter basename='/Anime-Website'>
+    <BrowserRouter basename='/Anime-Website'>
       <App />
-    </HashRouter>
+    </BrowserRouter>
     </Provider>
   </React.StrictMode>
 );
