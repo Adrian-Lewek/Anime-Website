@@ -26,9 +26,9 @@ const RecomendedAnime: FunctionComponent<animeType> = ({ name, genres }) => {
       <div className="titleBar"> Recomended Anime</div>
       <div className="bottomContainer">
         <div className="leftSide">
-        <div className="animeContainer">
-        {recomendedAnimeList.map((item, index)=> <AnimeItem key={index} anime={item}/>)}
-        </div>
+          <div className="animeContainer">
+          {recomendedAnimeList.map((item, index)=> <AnimeItem key={index} anime={item}/>)}
+          </div>
         </div>
         <div className="newsContainer">
           <div className="background"></div>
