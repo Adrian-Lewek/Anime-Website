@@ -330,5 +330,177 @@
       "ADVENTURE",
       "SUPERNATURAL"
     ]
+  },
+  {
+    "title": "Mob Psycho 100",
+    "desc": "The story revolves around \"Mob,\" a boy who will explode if his emotional capacity reaches 100%. This boy with psychic powers earned his nickname \"Mob\" because he does not stand out among other people. He keeps his psychic powers bottled up so he can live normally, but if his emotional level reaches 100, something will overwhelm his entire body.",
+    "numOfEp": 12,
+    "numOfSeasons": 3,
+    "type": "TV",
+    "shortCode": "Mob_Psycho_100",
+    "rating": 84,
+    "year": 2016,
+    "studio": "bones",
+    "genres":[
+      "ACTION",
+      "COMEDY",
+      "PSYCHOLOGICAL",
+      "SLICE OF LiFE",
+      "SUPERNATURAL"
+    ]
+  },
+  {
+    "title": "Assassination Classroom",
+    "desc": "The students of class 3-E have a mission: kill their teacher before graduation. He has already destroyed the moon, and has promised to destroy the Earth if he can not be killed within a year. But how can this class of misfits kill a tentacled monster, capable of reaching Mach 20 speed, who may be the best teacher any of them have ever had?",
+    "numOfEp": 22,
+    "numOfSeasons": 2,
+    "type": "TV",
+    "shortCode": "Assassination_Classroom",
+    "rating": 79,
+    "year": 2015,
+    "studio": "Lerche",
+    "genres":[
+      "ACTION",
+      "COMEDY",
+      "DRAMA",
+      "SUPERNATURAL"
+    ]
+  },
+  {
+    "title": "Black Clover",
+    "desc": "In a world where magic is everything, Asta and Yuno are both found abandoned at a church on the same day. While Yuno is gifted with exceptional magical powers, Asta is the only one in this world without any. At the age of fifteen, both receive grimoires, magic books that amplify their holder’s magic. Asta’s is a rare Grimoire of Anti-Magic that negates and repels his opponent’s spells. Being opposite but good rivals, Yuno and Asta are ready for the hardest of challenges to achieve their common dream: to be the Wizard King. Giving up is never an option!",
+    "numOfEp": 170,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "Black_Clover",
+    "rating": 78,
+    "year": 2017,
+    "studio": "Studio Pierrot",
+    "genres":[
+      "ACTION",
+      "ADVENTURE",
+      "COMEDY",
+      "FANTASY"
+    ]
+  },
+  {
+    "title": "Kakegurui",
+    "desc": "During daylight hours, an exclusive, elite private school prepares its illustrious students for careers in business, politics, and high society. But when darkness falls, the halls of this esteemed establishment transform into an underground gambling den where bright-eyed youngsters learn the timeless art of bluffing, backdoor dealings and social manipulation. In this school for the rich and elite, money is power, and the tyrant of the betting books rules with an iron fist. So when the beautiful Yumeko Jabami upsets the academy hierarchy with her voracious appetite for the thrill of the gamble, the entire student body mobilizes to send her house of cards tumbling down.",
+    "numOfEp": 12,
+    "numOfSeasons": 2,
+    "type": "TV",
+    "shortCode": "Kakegurui",
+    "rating": 70,
+    "year": 2017,
+    "studio": "MAPPA",
+    "genres":[
+      "DRAMA",
+      "MYSTERY",
+      "PSYCHOLOGICAL"
+    ]
+  },
+  {
+    "title": "To Your Eternity",
+    "desc": "In the beginning, an \"orb\" is cast unto Earth. \"It\" can do two things: change into the form of the thing that stimulates \"it\"; and come back to life after death. \"It\" morphs from orb to rock, then to wolf, and finally to boy, but roams about like a newborn who knows nothing. As a boy, \"it\" becomes Fushi. Through encounters with human kindness, Fushi not only gains survival skills but grows as a \"person\". But his journey is darkened by the inexplicable and destructive enemy Nokker and cruel partings with the people he loves.",
+    "numOfEp": 20,
+    "numOfSeasons": 2,
+    "type": "TV",
+    "shortCode": "To_Your_Eternity",
+    "rating": 82,
+    "year": 2021,
+    "studio": "Brain's Base",
+    "genres":[
+      "ADVENTURE",
+      "DRAMA",
+      "FANTASY",
+      "PSYCHOLOGICAL",
+      "SUPERNATURAL"
+    ]
+  },
+  {
+    "title": "Tomodachi Game",
+    "desc": "High school student Katagiri Yuuichi, who values friendship above all else, enjoys a fulfilling life with his close friends Sawagiri Shiho, Mikasa Tenji, Shibe Makoto, and Kokorogi Yutori. However, after a particular incident, they're dragged into a debt repayment game. The only way to beat the \"Tomodachi Game\" is to not doubt their friends. Bound together by solid friendships, the game should've been easy, but– The hugely popular comic that sold over two million copies is finally becoming an anime! Will they trust or betray their precious friends? The true nature of humanity is exposed in the ultimate psychological game!",
+    "numOfEp": 12,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "Tomodachi_Game",
+    "rating": 76,
+    "year": 2022,
+    "studio": "Okuruto Noboru",
+    "genres":[
+      "DRAMA",
+      "MYSTERY",
+      "PSYCHOLOGICAL"
+    ]
+  },
+  {
+    "title": "Akame ga Kill!",
+    "desc": "In a land where corruption rules and a ruthless Prime Minister has turned the puppet Emperor's armies of soldiers, assassins and secret police against the people, only one force dares to stand against them: Night Raid, an elite team of relentless killers, each equipped with an Imperial Arm - legendary weapons with unique and incredible powers created in the distant past. Rescued from a fate worse than death by Night Raid, young Tatsumi is offered the chance to join their lethal ranks… but it's a deadly choice, as few can master an Imperial Arm and even fewer survive when two Arms go against each other in combat. The battle is on, and only the strongest will make it out alive.",
+    "numOfEp": 24,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "Akame_ga_Kill",
+    "rating": 72,
+    "year": 2014,
+    "studio": "White Fox",
+    "genres":[
+      "ACTION",
+      "ADVENTURE",
+      "DRAMA",
+      "FANTASY",
+      "HORROR",
+      "PSYCHOLOGICAL",
+      "THRILLER"
+    ]
+  },
+  {
+    "title": "Darwin's Game",
+    "desc": "Kaname Sudou, an ordinary high school student, receives an invitation email to try a mysterious app called \"Darwin's Game.\" Kaname, upon launching the app, is drawn into a game where players fight one another using superpowers called Sigils. Without knowing the reason for all this, can Kaname survive furious battles against the powerful players who attack him?",
+    "numOfEp": 11,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "Darwins_Game",
+    "rating": 70,
+    "year": 2020,
+    "studio": "Nexus",
+    "genres":[
+      "ACTION",
+      "MYSTERY",
+      "SCI-FI",
+      "THRILLER"
+    ]
+  },
+  {
+    "title": "Food Wars! Shokugeki no Soma",
+    "desc": "Ever since he was little, Souma Yukihira’s main goals have been to beat his father in a cooking contest and take over the family diner. That’s why, when his dad suddenly announces that he’s shutting the restaurant down and sending Souma to cooking school, Souma is shocked. However, Totsuki Academy is no ordinary cooking school. This elite institution is filled with culinary giants like Erina “God Tongue” Nakiri, who does her best to keep a lowly short-order like Souma from even making it inside the door. However, if the snobs can dish it out, Souma can serve it up, and when he learns that only a handful of the students manage to graduate every year, he swears that the only way he’ll leave is as number one!",
+    "numOfEp": 24,
+    "numOfSeasons": 6,
+    "type": "TV",
+    "shortCode": "Food_Wars",
+    "rating": 79,
+    "year": 2015,
+    "studio": "J.C Staff",
+    "genres":[
+      "COMEDY",
+      "ECCHI"
+    ]
+  },
+  {
+    "title": "Tower of God",
+    "desc": "There is a tower that summons chosen people called \"Regulars\" with the promise of granting their deepest desires. Whether it be wealth, fame, authority, or something that surpasses them all—everything awaits those who reach the top. Twenty-Fifth Bam is a boy who had only known a dark cave, a dirty cloth, and an unreachable light his entire life. So when a girl named Rachel came to him through the light, his entire world changed. Becoming close friends with Rachel, he learned various things about the outside world from her. But when Rachel says she must leave him to climb the Tower, his world shatters around him. Vowing to follow after her no matter what it takes, he sets his sight on the tower, and a miracle occurs. Thus begins the journey of Bam, a young boy who was not chosen by the Tower but opened its gates by himself. They call his kind \"Irregulars\"—beings that have shaken the very foundation of the Tower each time they set foot inside it.",
+    "numOfEp": 13,
+    "numOfSeasons": 1,
+    "type": "TV",
+    "shortCode": "Tower_of_God",
+    "rating": 74,
+    "year": 2020,
+    "studio": "Telecom Animation Film",
+    "genres":[
+      "ACTION",
+      "ADVENTURE",
+      "DRAMA",
+      "MYSTERY",
+      "FANTASY"
+    ]
   }
 ]

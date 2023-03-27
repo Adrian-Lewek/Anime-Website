@@ -14,7 +14,6 @@ interface animeType {
 }[]
 }
 const AnimeList: FunctionComponent<animeType> = ({ title, desc, anime }) => {
-  let i = 0;
   return(
     <>
       <div className='popularAnime'>

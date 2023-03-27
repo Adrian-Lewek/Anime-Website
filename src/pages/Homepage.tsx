@@ -62,10 +62,10 @@ export default function HomePage () {
         </div>
       </div>
       <AnimeBrowse title='Popular anime' desc='Most popular anime this season!' anime={animePopular.slice(0,5)}/>
-      <AnimeBanner buttonText="SEE MORE" anime={AnimeList[rAnime1]} image={getImage(AnimeList[rAnime1].shortCode)}/>
+      <AnimeBanner buttonText="SEE MORE" link='anime' anime={AnimeList[rAnime1]} image={getImage(AnimeList[rAnime1].shortCode)}/>
       <AnimeBrowse title='lastest anime' desc='These anime came out recently!' anime={animeLastest.slice(0,5)}/>
       <AnimeBrowse title='fantasy Anime' desc="You'll get a taste of fantasy in these anime!" anime={animeFantasy.slice(0,5)}/>
-      <AnimeBanner buttonText="SEE MORE" anime={AnimeList[rAnime2]} image={getImage(AnimeList[rAnime2].shortCode)}/>
+      <AnimeBanner buttonText="SEE MORE" link='anime' anime={AnimeList[rAnime2]} image={getImage(AnimeList[rAnime2].shortCode)}/>
 
     </div>
   )

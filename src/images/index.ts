@@ -19,6 +19,16 @@ import MTJR_logo from './logo/MTJR_logo.jpg';
 import SG_logo from './logo/SG_logo.jpg'; 
 import VS_logo from './logo/VS_logo.jpg'; 
 import BLEACH_logo from './logo/BLEACH_logo.jpg'; 
+import MP_logo from './logo/MP_logo.jpg'; 
+import AC_logo from './logo/AC_logo.jpg'; 
+import BC_logo from './logo/BC_logo.jpg'; 
+import kake_logo from './logo/kake_logo.jpg'; 
+import tye_logo from './logo/tye_logo.jpg'; 
+import tomo_logo from './logo/tomo_logo.jpg'; 
+import sns_logo from './logo/sns_logo.jpg'; 
+import knt_logo from './logo/knt_logo.jpg'; 
+import dg_logo from './logo/dg_logo.jpg'; 
+import agk_logo from './logo/agk_logo.jpg'; 
 
 const Images = [
   { img: CM_banner, type: 'banner', name: 'Chainsaw_Man'},
@@ -41,6 +51,16 @@ const Images = [
   { img: MTJR_logo, type: 'logo', name: 'Mushoku_Tensei'},
   { img: SG_logo, type: 'logo', name: 'Steins_Gate'},
   { img: VS_logo, type: 'logo', name: 'Vinland_Saga'},
-  { img: BLEACH_logo, type: 'logo', name: 'Bleach'}
+  { img: BLEACH_logo, type: 'logo', name: 'Bleach'},
+  { img: MP_logo, type: 'logo', name: 'Mob_Psycho_100'},
+  { img: AC_logo, type: 'logo', name: 'Assassination_Classroom'},
+  { img: BC_logo, type: 'logo', name: 'Black_Clover'},
+  { img: kake_logo, type: 'logo', name: 'Kakegurui'},
+  { img: tye_logo, type: 'logo', name: 'To_Your_Eternity'},
+  { img: tomo_logo, type: 'logo', name: 'Tomodachi_Game'},
+  { img: sns_logo, type: 'logo', name: 'Food_Wars'},
+  { img: knt_logo, type: 'logo', name: 'Tower_of_God'},
+  { img: dg_logo, type: 'logo', name: 'Darwins_Game'},
+  { img: agk_logo, type: 'logo', name: 'Akame_ga_Kill'}
 ];
 export default Images;

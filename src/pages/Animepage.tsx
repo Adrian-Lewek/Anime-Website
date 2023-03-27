@@ -32,7 +32,7 @@ const Animepage: React.FunctionComponent<IAnimePageProps> = (props) => {
         <div className="backgroundBottom"/>
       </div>
       <div className="animeContainer" >
-        <AnimeBanner buttonText="WATCH NOW" anime={anime} image={img}></AnimeBanner>
+        <AnimeBanner buttonText="WATCH NOW" link="watch" anime={anime} image={img}></AnimeBanner>
         
       </div>
       <div className="rightside">
